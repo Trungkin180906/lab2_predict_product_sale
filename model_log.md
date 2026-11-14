@@ -1,11 +1,11 @@
-# 📋 NHẬT KÝ THÔNG SỐ VÀ CẤU HÌNH MÔ HÌNH (MODEL CONFIG & LOG)
+# NHẬT KÝ THÔNG SỐ VÀ CẤU HÌNH MÔ HÌNH (MODEL CONFIG & LOG)
 > **Dự án:** Dự đoán doanh số bán hàng BigMart Sales (Lab 2)  
 > **Thời gian xuất log:** `2026-11-15 00:22:01`  
 > **Môi trường thực thi:** Python 3.12 (Windows) | Thuật toán tự xây dựng từ đầu (From Scratch with NumPy)
 
 ---
 
-## 1. 📊 THÔNG TIN TẬP DỮ LIỆU ĐẦU VÀO
+## 1. THÔNG TIN TẬP DỮ LIỆU ĐẦU VÀO
 * **Tổng số mẫu huấn luyện (Train samples):** `5,965` dòng
 * **Số chiều đặc trưng (Features):** `29` đặc trưng
 * **Phân chia dữ liệu:** `70% Train` | `10% Validation` | `20% Test`
@@ -14,7 +14,7 @@
 
 ---
 
-## 2. ⚙️ BẢNG TỔNG HỢP SIÊU THAM SỐ (HYPERPARAMETERS)
+## 2. BẢNG TỔNG HỢP SIÊU THAM SỐ (HYPERPARAMETERS)
 *Các tham số cấu hình do người lập trình thiết lập trước khi huấn luyện mô hình:*
 
 | Thuật toán | Cơ chế thuật toán | Siêu tham số (Hyperparameters) | Giá trị cấu hình | Ý nghĩa kỹ thuật |
@@ -25,7 +25,7 @@
 
 ---
 
-## 3. 🧠 THAM SỐ HỌC ĐƯỢC CỦA MÔ HÌNH (LEARNED PARAMETERS)
+## 3. THAM SỐ HỌC ĐƯỢC CỦA MÔ HÌNH (LEARNED PARAMETERS)
 *Các giá trị mà mô hình tự động học và lưu trữ vào file nhị phân sau khi khớp dữ liệu:*
 
 * **Decision Tree (`decisiontree.pkl`):**
@@ -38,7 +38,7 @@
 
 ---
 
-## 4. 🏆 KẾT QUẢ HIỆU NĂNG TRÊN TẬP KIỂM THỬ (TEST SET)
+## 4. KẾT QUẢ HIỆU NĂNG TRÊN TẬP KIỂM THỬ (TEST SET)
 
 | Model            |    RMSE |    MAE |     R2 |   MAPE |
 |:-----------------|--------:|-------:|-------:|-------:|
@@ -46,6 +46,6 @@
 | DecisionTree     | 1039.88 | 727.26 | 0.6021 |  55.56 |
 | GradientBoosting | 1062.91 | 791.91 | 0.5843 | 102.41 |
 
-### 💡 Kết luận lựa chọn mô hình:
+###  Kết luận lựa chọn mô hình:
 * **Mô hình tốt nhất (Best Model):** `Random Forest` đạt hiệu năng dẫn đầu với **$R^2 = 0.6152$** và sai số tuyệt đối thấp nhất **$MAE = 721.17 USD$**.
 * Mô hình được chọn làm chuẩn mặc định cho hệ thống **Production Deployment** trên ứng dụng Web Streamlit (`demo/app.py`).
