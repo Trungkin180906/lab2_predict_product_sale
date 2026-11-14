@@ -1,0 +1,11 @@
+[14:41:18] [INFO]: BẮT ĐẦU HUẤN LUYỆN 3 THUẬT TOÁN
+[14:41:28] [INFO]: BẮT ĐẦU HUẤN LUYỆN 3 THUẬT TOÁN
+[14:41:29] [INFO]: Huấn luyện thành công DecisionTree trong 1.41s -> Đã lưu: decisiontree.pkl
+[14:44:02] [INFO]: BẮT ĐẦU HUẤN LUYỆN 3 THUẬT TOÁN
+[14:44:04] [INFO]: Huấn luyện thành công DecisionTree trong 1.73s -> Đã lưu: decisiontree.pkl
+[14:44:21] [INFO]: Huấn luyện thành công RandomForest trong 17.40s -> Đã lưu: randomforest.pkl
+[14:44:29] [INFO]: Huấn luyện thành công GradientBoosting trong 7.51s -> Đã lưu: gradientboosting.pkl
+[15:01:46] [INFO]: BẮT ĐẦU HUẤN LUYỆN 3 THUẬT TOÁN
+[15:01:48] [INFO]: Huấn luyện thành công DecisionTree trong 1.36s -> Đã lưu: decisiontree.pkl
+[15:02:07] [INFO]: Huấn luyện thành công RandomForest trong 19.08s -> Đã lưu: randomforest.pkl
+[15:02:15] [INFO]: Huấn luyện thành công GradientBoosting trong 8.10s -> Đã lưu: gradientboosting.pkl

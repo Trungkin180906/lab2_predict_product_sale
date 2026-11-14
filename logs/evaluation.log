@@ -1,0 +1,10 @@
+[14:57:41] [INFO]: 
+           Model    RMSE    MAE     R2   MAPE
+    RandomForest 1030.53 728.10 0.6093  60.79
+    DecisionTree 1036.11 725.41 0.6050  55.55
+GradientBoosting 1062.78 792.07 0.5844 102.12
+[15:02:15] [INFO]: 
+           Model    RMSE    MAE     R2   MAPE
+    RandomForest 1022.73 721.17 0.6152  59.03
+    DecisionTree 1039.88 727.26 0.6021  55.56
+GradientBoosting 1062.91 791.91 0.5843 102.41
