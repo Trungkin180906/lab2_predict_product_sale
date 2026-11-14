@@ -1,0 +1,4 @@
+Model,RMSE,MAE,R2,MAPE
+RandomForest,1022.73,721.17,0.6152,59.03
+DecisionTree,1039.88,727.26,0.6021,55.56
+GradientBoosting,1062.91,791.91,0.5843,102.41
